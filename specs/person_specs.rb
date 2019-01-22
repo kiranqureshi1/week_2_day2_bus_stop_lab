@@ -8,12 +8,4 @@ class TestPerson < MiniTest::Test
     @person_1 = Person.new("Kira", 23)
   end
 
-  def test_name
-    assert_equal("Kira", @person_1)
-  end
-
-
-
-
-
 end
